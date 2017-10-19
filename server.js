@@ -12,7 +12,7 @@ app.use((ctx, next) => {
 });
 
 // routes
-router.get('/koala', function(ctx, next) {
+router.get('/koala', (ctx, next) => {
   ctx.response.body = 'yo, holla!';
 });
 
